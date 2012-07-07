@@ -58,6 +58,11 @@ The most common error to occur is related to Ajax Cross-Site Requests. I'll refe
 ### Requirements & Testing
 Readme.js requires jQuery 1.4+ and should work in all current browsers.
 
+### Alternatives
+- [Repo.js by Darcy Clarke](http://darcyclarke.me/dev/repojs/): Repo.js is a light-weight jQuery Plugin that lets you easily embed a Github repo onto your site. As a plugin or library author this is a great way to showcase the contents of a repo on a project page. [(Github)](https://github.com/darcyclarke/Repo.js)
+- [Gist-It by Robert Krimen](http://gist-it.appspot.com/): Gist-It lets you take a file from your GitHub repository and embed it into any webpage, just like a gist. [(Github)](https://github.com/robertkrimen/gist-it) 
+
+
 ### Is it any good?
 [We'll see.](http://news.ycombinator.com/item?id=3067434)
 
