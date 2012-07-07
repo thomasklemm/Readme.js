@@ -26,17 +26,17 @@ You have two options when using Readme.js:
 That's it. The Readme will be pulled from Github's respective API and inserted along with some basic styles.
 
 ### Step-by-Step
-1. Include jQuery and `readme.js` files in your HTML  
+1. Include jQuery and `readme.js` files in your HTML:  
   ```html
-    <script src="PATH/TO/jquery.js"><script>
+    <script src="PATH/TO/jquery.js"><script>  
     <script src="PATH/TO/readme.js"><script>
   ```
-2. Create an element for the Readme  
+2. Create an element for the Readme:  
   ```html
     <div id='Readme'></div>
   ```
-3. Instantiate Readme.js  
-  ```html
+3. Instantiate Readme.js:  
+```html
     <script>
       $('#Readme').readme({
         'owner': 'thomasklemm',
