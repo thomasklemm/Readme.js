@@ -47,16 +47,12 @@ That's it. The Readme will be pulled from Github's respective API and inserted a
 4. You are all set up!
 
 ### How does it work?
-Some jaw-dropping kind of Yedi-Style Magic :-D
-
-Nah - that would be nice. 
-
+Some jaw-dropping kind of Yedi-Style Magic :-D Nah - that would be nice.
 However, Readme.js actually just requests a Github Repo's Readme at the [corresponding Github API](http://developer.github.com/v3/repos/contents/) and inserts the html into the elements you specify. It also ships with some styles extracted from the Github homepage (Note: As for permission) so that proper Syntax Highlighting can happen as well.
 
 ### FAQs & Common Error Messages
 
-#### What does "XMLHttpRequest cannot load https://api.github.com/repos/sinatra/sinatra/readme. Origin http://mysite.com is not allowed by Access-Control-Allow-Origin." mean?
-
+*What does "XMLHttpRequest cannot load https://api.github.com/repos/sinatra/sinatra/readme. Origin http://mysite.com is not allowed by Access-Control-Allow-Origin." mean?*  
 The most common error to occur is related to Ajax Cross-Site Requests. I'll refer to the Github API Manual for you to read up on [how to enable Ajax Cross-Site Requests to Github from your Domain](http://developer.github.com/v3/#cross-origin-resource-sharing). You will be able to get it working in a few minutes.
 
 ### Requirements & Testing
