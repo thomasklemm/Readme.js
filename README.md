@@ -1,7 +1,7 @@
 # Readme.js
 [Readme.js](http://readmejs.herokuapp.com/) is a jQuery Plugin that embeds the Readme of a Github Repo into any website.
 
-Demo & Examples: [http://readme.knight.io/](http://readmejs.herokuapp.com/)
+Demo & Examples: [Readme.js](http://readmejs.herokuapp.com/)
 
 ### How to Use
 You have two options when using Readme.js:
